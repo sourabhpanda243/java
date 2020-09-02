@@ -31,7 +31,7 @@ public class Employee {
 				st=con.prepareStatement(query);
 				System.out.println("enter id");
 				id=sc.nextInt();
-				sc.nextLine();// this is required otherwise it throws error
+				sc.nextLine();
 				System.out.println("enter name");
 				name=sc.nextLine();
 				System.out.println("enter age");
